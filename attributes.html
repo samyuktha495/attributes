@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            width: 100%;
+            display: flex;
+        }
+        .sub {
+            width: 70%;
+            background: linear-gradient(to right, yellow, orange, rgb(208, 11, 11));
+            /* border: 2px solid black; */
+            height: 300px;
+        }
+
+        .one {
+            float: left;
+        }
+
+        .sup {
+           
+            width: 30%;
+            background: radial-gradient(rgb(241, 160, 241), rgb(189, 189, 220));
+           
+        }
+
+        .image {
+            display: flex;
+            gap: 10px;
+
+        }
+
+        .image1,
+        .image2,
+        .image3 {
+            border: 2px solid black;
+            width: 200px;
+           
+        }
+        button{
+            background-color: black;
+            color: white;
+            
+        }
+
+        .type {
+            width: 100%;
+        }
+
+        .submit {
+            width: 100%;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+
+        .submit:hover {
+            background-color: lightslategray;
+        }
+
+        footer {
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        button:active{
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="sub">
+            <h2>Welcome to my website</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sapiente?</p>
+            <img class="one"
+                src="https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png"alt="" width="200px" height="200px">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, blanditiis?</p>
+        </div>
+        <div class="sup">
+            <h2>sidebar</h2>
+            <a href="">link1</a><br>
+            <a href="">link2</a><br>
+            <a href="">link3</a>
+        </div>
+    </div>
+    <h2>image gallery</h2>
+    <div class="image">
+        <div class="image1">
+            <img src="https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png"
+                alt="caption1" width="200px" height="200px">
+                <button>caption1</button>
+        </div>
+        <div class="image2">
+            <img src="https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png"
+                alt="caption2" width="200px" height="200px">
+            <button>caption2</button>
+        </div>
+        <div class="image3">
+            <img src="https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png"
+                alt="caption3" width="200px" height="200px">
+            <button>caption3</button>
+        </div>
+    </div>
+    <div>
+        <h2>sign up</h2>
+        <p>Name</p>
+        <input class="type" type="text">
+        <p>Email</p>
+        <input class="type" type="email">
+        <input type="checkbox"><label>Accepts Terms And Conditions</label>
+    </div>
+    <input class="submit" type="submit" placeholder="submit">
+    </div>
+    <footer>
+        <p>&#xa9;My website.All rights reserved</p>
+    </footer>
+</body>
+
+</html>
